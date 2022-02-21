@@ -236,7 +236,7 @@
     (uuid 6e77d4d6-0239-4c20-98f8-23ae4f71d638)
   )
 
-  (symbol (lib_id "omron_sx_3340:SX3340") (at 132.08 92.71 0)
+  (symbol (lib_id "omron_sx_3340:SX3340") (at 132.08 92.71 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc7d448)
     (property "Reference" "OPT1" (id 0) (at 132.08 85.725 0))
@@ -254,7 +254,7 @@
     (pin "5" (uuid b4182176-94b4-4042-a047-ced8894735c1))
   )
 
-  (symbol (lib_id "Device:R") (at 118.11 82.55 0)
+  (symbol (lib_id "Device:R") (at 118.11 82.55 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fcab162)
     (property "Reference" "R16" (id 0) (at 118.11 83.82 90)
@@ -273,7 +273,7 @@
     (pin "2" (uuid 2992f162-3bfb-436e-88d2-ef9157d22121))
   )
 
-  (symbol (lib_id "power:+5V") (at 118.11 77.47 0)
+  (symbol (lib_id "power:+5V") (at 118.11 77.47 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fcaba33)
     (property "Reference" "#PWR0173" (id 0) (at 118.11 81.28 0)
@@ -289,7 +289,7 @@
     (pin "1" (uuid 120f23c7-4d4a-4621-8913-08ec35a41e2c))
   )
 
-  (symbol (lib_id "power:GND") (at 118.11 96.52 0)
+  (symbol (lib_id "power:GND") (at 118.11 96.52 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fcac71d)
     (property "Reference" "#PWR0174" (id 0) (at 118.11 102.87 0)
@@ -305,7 +305,7 @@
     (pin "1" (uuid 3f078306-eb8f-4f77-a35b-7253f700d3e4))
   )
 
-  (symbol (lib_id "power:+5V") (at 146.05 81.28 0)
+  (symbol (lib_id "power:+5V") (at 146.05 81.28 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fcaddb2)
     (property "Reference" "#PWR0175" (id 0) (at 146.05 85.09 0)
@@ -321,7 +321,7 @@
     (pin "1" (uuid ad09ce9c-7766-4f5c-b537-2abf9551f61d))
   )
 
-  (symbol (lib_id "power:GND") (at 146.05 97.79 0)
+  (symbol (lib_id "power:GND") (at 146.05 97.79 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fcae3c8)
     (property "Reference" "#PWR0176" (id 0) (at 146.05 104.14 0)

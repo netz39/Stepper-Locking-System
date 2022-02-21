@@ -300,7 +300,7 @@
     (uuid be030c62-e776-405f-97d8-4a4c1aa2e428)
   )
 
-  (symbol (lib_id "Connector:Conn_01x04_Male") (at 124.46 88.9 0)
+  (symbol (lib_id "Connector:Conn_01x04_Male") (at 124.46 88.9 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc290d6)
     (property "Reference" "J4" (id 0) (at 127.2032 81.7626 0))
@@ -317,7 +317,7 @@
     (pin "4" (uuid 1dfd57e6-2750-423f-b47b-e3e12643c855))
   )
 
-  (symbol (lib_id "power:+3.3V") (at 140.97 85.09 0)
+  (symbol (lib_id "power:+3.3V") (at 140.97 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc290dc)
     (property "Reference" "#PWR0169" (id 0) (at 140.97 88.9 0)
@@ -333,7 +333,7 @@
     (pin "1" (uuid ac5bf277-3416-495c-afc2-55995107a595))
   )
 
-  (symbol (lib_id "power:GND") (at 140.97 92.71 0)
+  (symbol (lib_id "power:GND") (at 140.97 92.71 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc290e2)
     (property "Reference" "#PWR0170" (id 0) (at 140.97 99.06 0)
@@ -349,7 +349,7 @@
     (pin "1" (uuid 64811abf-516c-4f50-8601-bf447456fb6b))
   )
 
-  (symbol (lib_id "Device:R") (at 146.05 83.82 0)
+  (symbol (lib_id "Device:R") (at 146.05 83.82 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc290ed)
     (property "Reference" "R13" (id 0) (at 146.05 86.36 90)
@@ -368,7 +368,7 @@
     (pin "2" (uuid 2e484963-b269-42b3-9486-24df28465ede))
   )
 
-  (symbol (lib_id "power:+3.3V") (at 146.05 78.74 0)
+  (symbol (lib_id "power:+3.3V") (at 146.05 78.74 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc290f3)
     (property "Reference" "#PWR0171" (id 0) (at 146.05 82.55 0)
@@ -384,7 +384,7 @@
     (pin "1" (uuid 31aad1ff-f8eb-44a2-b0e6-6f2533cadd8a))
   )
 
-  (symbol (lib_id "Device:R") (at 132.08 97.79 0)
+  (symbol (lib_id "Device:R") (at 132.08 97.79 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc290fa)
     (property "Reference" "R12" (id 0) (at 132.08 100.33 90)
@@ -403,7 +403,7 @@
     (pin "2" (uuid ace74cf6-fd28-4884-9baa-d9f2aa9480dc))
   )
 
-  (symbol (lib_id "power:+3.3V") (at 127 101.6 0)
+  (symbol (lib_id "power:+3.3V") (at 127 101.6 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc29102)
     (property "Reference" "#PWR0172" (id 0) (at 127 105.41 0)
