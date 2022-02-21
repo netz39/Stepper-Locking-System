@@ -1209,7 +1209,7 @@
   )
 
   (text "All caps without voltage rating default to 6.3V versions"
-    (at 228.6 15.24 0)
+    (at 139.7 15.24 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 00e38d63-5436-49db-81f5-697421f168fc)
   )
@@ -1218,8 +1218,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 28e37b45-f843-47c2-85c9-ca19f5430ece)
   )
-  (text "Power losses TMC2209:\nFrom datasheet at 1A rms, 24V, Stealth Ploss = 1.4W\nLoss is internal LDO + Drive Stage\nLDO Current output = 7.5mA\n\nat 24V, 1A rms: \nLDO: 24V * 0.0075 = 0.18W\nDrive: (1.4W - 0.18W) / 1 A = 1,22 Ohm\n\nat 16.8V, 0.4A rms: \nLDO: 16.8V * 0.0075 = 0.12W\nDrive: 0.4A² * 1.22 Ohm = 0.19W\n== Loss: 0,3W"
-    (at 228.6 74.93 0)
+  (text "Power losses at TMC2209:\nFrom datasheet at 1A rms, 24V, Stealth Ploss = 1.4W\nLoss is internal LDO + Drive Stage\nLDO Current output = 7.5mA\n\nat 24V, 1A rms: \nLDO: 24V * 0.0075 = 0.18W\nDrive: (1.4W - 0.18W) / 1 A = 1,22 Ohm\n\nat 12V, 1A rms: \nLDO: 12V * 0.0075 = 0.09W\nDrive: 1A² * 1.22 Ohm = 1.22W\n= 1,31W loss at TMC2209\n-----------------------------------"
+    (at 228.6 80.01 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 57276367-9ce4-4738-88d7-6e8cb94c966c)
   )
@@ -1244,13 +1244,13 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid d4c9471f-7503-4339-928c-d1abae1eede6)
   )
-  (text "Current (Worst Case):\nBattery low Voltage about 14.7V\nMotor: 3.8W\nDriver: 0.3W\n== Iin = 0.27A\n"
-    (at 228.6 88.9 0)
+  (text "Input Current:\nVoltage about 12V\nMotor: 8.08W\nDriver: 1.31W\n== Iin = (8.08W + 1.31W) / 12V = 0.78A\n"
+    (at 228.6 92.71 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e5217a0c-7f55-4c30-adda-7f8d95709d1b)
   )
-  (text "Stepper motor: 14HY2420\n- used at 0.4 A phase current \n- 20 Ohm coil resistance\n-> 8V, 3.2W resistive losses\n\n- fast rc car servos do up to 80 rpm, 1.3 rps\n- match at least that\n\n- holding torque: 0.12Nm\nBack emf approximation:\n(sqrt(2) * 3.14 * 0.12Nm * 1.3 1/s *) / 0.4A = 1.7V\n\n== (1.7V bemf + 8V resistive loss) * 0.4A = 3.8W "
-    (at 228.6 43.18 0)
+  (text "Power losses at motor:\ncheap Stepper motor 42HB34F1AB-01 as reference:\n- max 1 A phase current \n- 4 Ohm coil resistance\n-> 4V, 4W resistive losses\n\n- tear down: 5\n- revolutions: 2\n- goal time: 2.5 sec\n-> speed (5*2)/2.5 rps = 4 rps\n\n- holding torque: 0.23Nm\nBack emf approximation:\n(sqrt(2) * 3.14 * 0.23Nm * 4 1/s) / 1A = 4.08V\n\n= (4.08V bemf + 4V resistive loss) * 1A \n= 8.08W loss at motor\n-----------------------------------"
+    (at 228.6 49.53 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f8f3a9fc-1e34-4573-a767-508104e8d242)
   )
