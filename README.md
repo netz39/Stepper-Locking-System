@@ -1,8 +1,3 @@
-# Stepper Servo
+# Stepper Locking System
 
-Steering the car with the might of stepper motors
-
-
-![pcb front](./pic/StepperServoFront.png)
-
-![pcb back](./pic/StepperServoBack.png)
+Steering the key/door knob with the might of stepper motors.
