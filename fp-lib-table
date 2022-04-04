@@ -1,4 +1,3 @@
 (fp_lib_table
-  (lib (name standardContent)(type KiCad)(uri ${KIPRJMOD}/standardcontent/standardContent/standardContent.pretty)(options "")(descr ""))
-  (lib (name stepperservo)(type KiCad)(uri ${KIPRJMOD}/stepperservo.pretty)(options "")(descr ""))
+  (lib (name extraFootprints)(type KiCad)(uri ${KIPRJMOD}/extraFootprints.pretty)(options "")(descr ""))
 )
