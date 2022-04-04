@@ -1,0 +1,26 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 4e49042e-e38e-4cb8-8d15-7ba4c09e351f)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+
+  (text "CAN requierements:\n- galvanic isolation\n- isolated DC/DC converter\n- base is a dedicated PCB due \n  different chip/converter impl. \n  (because semiconductor componts are rare)\n"
+    (at 13.97 29.21 0)
+    (effects (font (size 1.5 1.5)) (justify left bottom))
+    (uuid 68f89946-a508-4391-9097-0e06c7440fa1)
+  )
+
+  (hierarchical_label "CAN_TX" (shape input) (at 107.95 77.47 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 5658909d-0ae7-43a0-887e-271a387e236e)
+  )
+  (hierarchical_label "CAN_RX" (shape output) (at 107.95 80.01 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid bc82565b-8dda-4505-ada4-707ea456cfd4)
+  )
+)

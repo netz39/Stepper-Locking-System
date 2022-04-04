@@ -130,7 +130,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "multiple_net_names|1231900|584200|16f150e1-b7e4-4b3c-bd4e-ca89d704a04b|d7e5a060-eb57-4238-9312-26bc885fc97d"
+    ],
     "meta": {
       "version": 0
     },
@@ -440,8 +442,12 @@
       ""
     ],
     [
-      "00000000-0000-0000-0000-00005fcd6257",
-      "Encoder"
+      "459892de-3652-40e4-b6ee-c2c9debb852e",
+      "CAN"
+    ],
+    [
+      "698a9f41-9462-4c58-adc2-e2b422c5d11a",
+      "5V buck converter"
     ],
     [
       "00000000-0000-0000-0000-00005fd04053",
