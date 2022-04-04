@@ -339,7 +339,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "StepperServo.kicad_pro",
+    "filename": "StepperLockingSystem.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -442,14 +442,6 @@
     [
       "00000000-0000-0000-0000-00005fcd6257",
       "Encoder"
-    ],
-    [
-      "00000000-0000-0000-0000-00005fc74da6",
-      "EndstopLeft"
-    ],
-    [
-      "00000000-0000-0000-0000-00005fc140d5",
-      "ExternalEncoder"
     ],
     [
       "00000000-0000-0000-0000-00005fd04053",
