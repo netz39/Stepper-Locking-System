@@ -1,5 +1,3 @@
 (sym_lib_table
-  (lib (name "tmc2209")(type "KiCad")(uri "${KIPRJMOD}/symbols/tmc2209.kicad_sym")(options "")(descr ""))
-  (lib (name "ams")(type "KiCad")(uri "${KIPRJMOD}/symbols/ams.kicad_sym")(options "")(descr ""))
-  (lib (name "ti")(type "KiCad")(uri "${KIPRJMOD}/symbols/ti.kicad_sym")(options "")(descr ""))
+  (lib (name "extraSymbols")(type "KiCad")(uri "${KIPRJMOD}/symbols/extraSymbols.kicad_sym")(options "")(descr ""))
 )
