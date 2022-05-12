@@ -48,7 +48,13 @@
           "min_clearance": 0.19999999999999998
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -119,7 +125,20 @@
         0.25,
         0.5
       ],
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.24
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -444,10 +463,6 @@
     [
       "459892de-3652-40e4-b6ee-c2c9debb852e",
       "CAN"
-    ],
-    [
-      "698a9f41-9462-4c58-adc2-e2b422c5d11a",
-      "5V buck converter"
     ],
     [
       "00000000-0000-0000-0000-00005fd04053",
