@@ -1238,7 +1238,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 430d6d73-9de6-41ca-b788-178d709f4aae)
   )
-  (text "sourcing: low L (film/composite type), \nI²R peak power: (1.2A)^{2} * 180mOhm = 260mW \n\n"
+  (text "sourcing: low L (film/composite type), \nI²R peak power: (1.2A)^{2} * 150mOhm = 216mW \n\n"
     (at 224.79 123.19 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 84d4e166-b429-409a-ab37-c6a10fd82ff5)
@@ -1518,7 +1518,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f68b408)
     (property "Reference" "R23" (id 0) (at 234.95 149.86 90))
-    (property "Value" "180m" (id 1) (at 232.41 149.86 90))
+    (property "Value" "150m" (id 1) (at 232.41 149.86 90))
     (property "Footprint" "Resistor_SMD:R_0612_1632Metric" (id 2) (at 236.728 149.86 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1637,7 +1637,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f6b7807)
     (property "Reference" "R24" (id 0) (at 257.81 149.86 90))
-    (property "Value" "180m" (id 1) (at 255.27 149.86 90))
+    (property "Value" "150m" (id 1) (at 255.27 149.86 90))
     (property "Footprint" "Resistor_SMD:R_0612_1632Metric" (id 2) (at 259.588 149.86 90)
       (effects (font (size 1.27 1.27)) hide)
     )
