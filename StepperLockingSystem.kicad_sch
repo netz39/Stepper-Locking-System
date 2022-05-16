@@ -2028,7 +2028,7 @@
     (property "Value" "180uF" (id 1) (at 76.581 118.9232 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm" (id 2) (at 74.6252 121.92 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (id 2) (at 74.6252 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 73.66 118.11 0)
@@ -2647,7 +2647,7 @@
       (reference "C3") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/9d62b0fe-2425-4cfb-8192-d872bf181ff2"
-      (reference "C4") (unit 1) (value "180uF") (footprint "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm")
+      (reference "C4") (unit 1) (value "180uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-00005fd04053/a18b8339-d3c7-45ab-98d3-18696f0ed779"
       (reference "C5") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -2797,7 +2797,7 @@
       (reference "J4") (unit 1) (value "SWD") (footprint "Connector_Molex:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005fd04053/a1966438-632f-42a0-8f88-339825717af7"
-      (reference "J5") (unit 1) (value "6Pin DuPont 2.56mm") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
+      (reference "J5") (unit 1) (value "6Pin DuPont 2.56mm") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
     )
     (path "/459892de-3652-40e4-b6ee-c2c9debb852e/cd42c423-5e04-46ea-9ad8-3933420402a2"
       (reference "J6") (unit 1) (value "5Pin DuPont 2.54mm") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
