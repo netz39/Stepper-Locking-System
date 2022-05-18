@@ -1385,7 +1385,7 @@
     (uuid 28e37b45-f843-47c2-85c9-ca19f5430ece)
   )
   (text "Power losses at TMC2209:\nFrom datasheet at 1A rms, 24V, Stealth P_{loss} = 1.4W\nLoss is internal LDO + Drive Stage\nLDO Current output = 7.5mA\n\nat 24V, 1A rms: \nLDO: 24V * 7.5mA = 0.18W\nDrive: (1.4W - 0.18W) / 1A = 1.22 Ohm\n\nat 12V, 1A rms: \nLDO: 12V * 7.5mA = 0.09W\nDrive: (1A)^{2} * 1.22 Ohm = 1.22W\n= 1.31W loss at TMC2209\n-----------------------------------"
-    (at 228.6 80.01 0)
+    (at 228.6 82.55 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 57276367-9ce4-4738-88d7-6e8cb94c966c)
   )
@@ -1402,7 +1402,7 @@
     (uuid 6e166bd1-20a2-484a-9365-1f93a0fd318a)
   )
   (text "addressable LEDs:\none SK9822-LED draws ~50mA at full brightness\ntwo LED-rings á 42 LEDs = 84 LEDs\nI_{84LEDs@full} = 50mA * 84 = 4.2A\nAssuming only two colors are on at time -> 66%\nLimit brightness by software -> 66% \n\nI_{84LEDs@limited} = 4.2A * 66% * 66% = 1.83A -> 2A\nP_{LEDs} = 5V * 2A = 10W\n-----------------------------------"
-    (at 228.6 100.33 0)
+    (at 228.6 102.87 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7954c7cb-97a2-4159-af2a-5a331db516f3)
   )
@@ -1432,12 +1432,12 @@
     (uuid d4c9471f-7503-4339-928c-d1abae1eede6)
   )
   (text "Input Current:\nVoltage about 12V\nMotor: 12.16W\nDriver: 1.31W\n\nP_{total} = 12.16W + 1.31W = 13.47W -> 15W\n\nI_{input} = 15W / 12V = 1.25A\n"
-    (at 228.6 118.11 0)
+    (at 228.6 120.65 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e5217a0c-7f55-4c30-adda-7f8d95709d1b)
   )
   (text "Power losses at motor:\ncheap Stepper motor 42HB34F1AB-01 as reference:\n- max 1 A phase current \n- 4 Ohm coil resistance\n-> 4V, 4W resistive losses\n\n- gear reduction: 5\n- revolutions: 2\n- goal time: 2.5 sec\n-> average speed (5*2)/2.5 rps = 4 rps\n-> asume maximum speed = 8 rps\n\n- holding torque: 0.23Nm\nBack emf approximation:\n(sqrt(2) * 3.14 * 0.23Nm * 8 1/s) / 1A = 8.16V\n\n= (8.16V bemf + 4V resistive loss) * 1A \n= 12.16W peak power needed from motor driver\n-----------------------------------"
-    (at 228.6 49.53 0)
+    (at 228.6 52.07 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f8f3a9fc-1e34-4573-a767-508104e8d242)
   )
