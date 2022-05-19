@@ -3087,8 +3087,9 @@
     (effects (font (size 1.27 1.27) italic) (justify left bottom))
     (uuid b428c34d-aec2-4c78-9fda-0984a96229e1)
   )
-  (text "µC pins should be 5V tolerant" (at 143.51 191.77 0)
-    (effects (font (size 1.27 1.27) italic) (justify left bottom))
+  (text "both state switches are normally closed\n\nµC pins should be 5V tolerant"
+    (at 172.72 191.77 0)
+    (effects (font (size 1.27 1.27) italic) (justify right bottom))
     (uuid b7c2f711-4872-43fd-b077-eacaae64a564)
   )
   (text "with ESD protection" (at 101.6 157.48 0)
