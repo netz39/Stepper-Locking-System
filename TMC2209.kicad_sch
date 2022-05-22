@@ -1406,7 +1406,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Male") (at 276.86 86.36 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f6723cc)
-    (property "Reference" "J11" (id 0) (at 277.5712 83.3628 0)
+    (property "Reference" "J8" (id 0) (at 277.5712 83.3628 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Stepper" (id 1) (at 280.67 92.71 90)
