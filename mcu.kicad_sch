@@ -3038,7 +3038,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold italic) (justify left bottom))
     (uuid daa8f6e5-44e1-4d03-b62a-a56b9c1c2bd5)
   )
-  (text "These signals are summarized to one connector\nto reduce wires and effort to (dis-)connect it.\nAt another location there is a PCB to split\nthese signals to single ones - this PCB is \nsupplied by 5V and 12V, so there is no needing\nfor extra 5V & 12V wires."
+  (text "These signals are summarized to one connector\nto reduce wires and effort to (dis-)connect it.\nAt another location there is the signal-splitter\nPCB to split these signals to single ones. This\nPCB is supplied by 5V and 12V, so there is no\nneeding for extra 5V & 12V wires."
     (at 36.83 173.99 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dace04f9-bc6f-4eac-878a-44890ec9b044)
