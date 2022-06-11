@@ -16,6 +16,13 @@ Requirements for v1.0
 * connection to two buttons to open/close door
 * switch on/off Nerdstern (outdoor lamp)
 
+Known issues in v1.0
+--
+* Mosfet Q1 has wrong connections for choosen part. Gate and Source are swapped.
+    * can be solved by simply solder the part upside down
+* the LQFP32 package of STM32G0B1KE doesn't support HSE connection
+    * the internal HSI is used
+
 Pictures (v1.0)
 --
 
