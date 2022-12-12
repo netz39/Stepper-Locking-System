@@ -3,6 +3,8 @@
 Steering the key/door knob with the might of stepper motors.
 See the [Wiki](https://wiki.netz39.de/projects:2022:stepper_locking_system) (german) for more details and an overview.
 
+This is forked from https://github.com/sprenger120/StepperServo.
+
 ## Firmware
 The firmware written in C++ is [here](https://github.com/netz39/Stepper-Locking-System_firmware).
 
